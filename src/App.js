@@ -1,13 +1,11 @@
 import React from "react";
 import "./App.css";
-import ShowTable from "./components/ShowTable";
-import Table from "./components/Table";
+import MyTabel from "./components/MyTabel";
 
 function App() {
   return (
     <div className="App">
-      {/* <ShowTable /> */}
-      <Table />
+      <MyTabel />
     </div>
   );
 }
